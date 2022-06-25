@@ -1,0 +1,122 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: inherit;
+}
+html {
+box-sizing: border-box;
+}
+
+body{
+    font-family:robot,lato !important ; /* to over-write bootstrap font */
+    font-size: large;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height:3rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-family: 'Lato';
+}
+
+.nav-item a{
+    color: gray !important;
+    font-size: 1rem;
+    padding: 0 10px;
+    font-weight: 600;
+}
+li.nav-item{
+    padding: 0 1rem;
+}
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-image{
+    height: 20rem;
+    border: 1rem solid white;
+    box-shadow: 1px 1px 5px grey;
+}
+
+textarea:focus, input:focus{
+    outline: none !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+    pad: .25rem;
+}
+.cursor-pointer:hover{
+    cursor: pointer;
+    pad: .25rem;
+    background-color: rgb(166, 206, 241);
+    border-radius: .25rem;
+}
+.jumbotron{
+    background-color: white;
+}
+
+
+/************************ index page ********************/
+.home-wrap{
+    background-color: black;
+}
+.g-top{
+    height: 89vh;
+    position: relative;
+}
+.video-wrap{
+    height:60rem;
+}
+.video-wrap>*{
+    flex:  1 1 20rem; /** flex grow flex shrink flex basis**/
+    border:1px solid white; 
+}
+.g-top-left{
+    position: absolute;
+    right:0;
+    height: 8vh;
+    top: 0;
+    border-bottom-left-radius: .5rem;
+}
+.top-left-participant-wrap{
+    position: relative;
+}
+.top-left-participant-count{
+    position:absolute;
+    top:-.1rem;
+    right: -.2rem;
+    font-size: 1rem;
+}
+.g-bottom{
+    /* margin: 0 -1rem !important; */
+    padding: 0 2rem;
+    box-shadow: 0 0 5px black;
+    z-index: 2;
+}
+.bottom-left{
+    position: relative;
+    padding: .5rem;
+}
+.action-icon-style{
+    font-size: 1.5rem !important;
+   height: 3rem; 
+   width: 3rem;
+   border: .1rem solid lightgray;
+   border-radius: 50%;
+}
+.action-icon-style span.material-icons{
+    font-size: 2rem !important;
+}
+
+.end-call-wrap{
+    transform: rotate(135deg);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ismeet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Inderjit Shahi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "socket.io": "^4.5.1"
+  },
+  "type": "module"
+}
